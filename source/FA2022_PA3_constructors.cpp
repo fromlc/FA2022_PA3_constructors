@@ -36,6 +36,8 @@ int main() {
     cout << "\n\n Birth rate per year: " << pop.getBirthRate();
     cout << "\n Death rate per year: " << pop.getDeathRate();
     cout << endl << endl;
+
+    return 0;
 }
 
 //----------------------------------------------------------------------
