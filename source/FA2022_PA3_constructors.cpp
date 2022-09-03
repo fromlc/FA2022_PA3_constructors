@@ -41,7 +41,7 @@ int main() {
 }
 
 //----------------------------------------------------------------------
-// get user input
+// fetch user input into reference parameters
 //----------------------------------------------------------------------
 void getInput(int& count, int& births, int& deaths) {
     cout << "\n Population Birth and Death Rates\n";
