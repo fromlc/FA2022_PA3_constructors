@@ -3,6 +3,10 @@
 //----------------------------------------------------------------------
 #pragma once
 
+constexpr int DEF_COUNT = 100;
+constexpr int DEF_BIRTHS = 6;
+constexpr int DEF_DEATHS = 5;
+
 class Population {
 private:
 	int m_count;
@@ -10,7 +14,8 @@ private:
 	int m_deaths;
 
 public:
-	// constructor
+	// constructors
+	Population();
 	Population(int count, int births, int deaths);
 
 	// getters

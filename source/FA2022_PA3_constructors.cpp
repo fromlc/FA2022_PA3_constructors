@@ -31,7 +31,7 @@ int main() {
     cout << "\n Births: " << pop.getBirths();
     cout << "\n Deaths: " << pop.getDeaths();
 
-    // calculate birth and death rate per year
+    // calculate birth and death rates per year
     cout << setprecision(1) << showpoint;
     cout << "\n\n Birth rate per year: " << pop.getBirthRate();
     cout << "\n Death rate per year: " << pop.getDeathRate();

@@ -3,6 +3,10 @@
 //----------------------------------------------------------------------
 #include "Population.h"
 
+// default constructor
+Population::Population() : Population(DEF_COUNT, DEF_BIRTHS, DEF_DEATHS)
+{}
+
 // constructor
 Population::Population(int count, int births, int deaths) {
 	m_count = count;
